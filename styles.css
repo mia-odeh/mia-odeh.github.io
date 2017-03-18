@@ -10,6 +10,12 @@ body {
 	}
 }
 
+@media only screen and (min-width: 320PX) {
+	.responsive-h2 {
+		font-size: 20px;
+	}
+}
+
 p {
 	color:#000000;
 	font: helvetica;
