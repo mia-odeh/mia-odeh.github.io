@@ -7,14 +7,21 @@ body {
 .responsive-image {
 	width: 50%;
 	}
+
 .responsive-h2 {
 	font-size: 30px;
+	font-style: oblique;
 	}
  .responsive-h1 {
-		font-size: 70px;
-		color: #5F9EA0;
+	font-size: 70px;
+	color: #5F9EA0;
+	}
+
+.responsive-p {
+	font-size: 20px;
 	}
 }
+
 
 p {
 	color:#000000;
@@ -34,10 +41,13 @@ h1 {
 h2 {
 	color:#000000;
 	font: garamond;
-	font-size: 30px;
-
+	font-size: 20px;
 }
 
+.img-round {
+	border-radius: 50%;
+}
+	
 .puff-style {
 	margin: 80px;
 }
