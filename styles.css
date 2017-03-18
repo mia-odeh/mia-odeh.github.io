@@ -5,27 +5,34 @@ body {
 
 p {
 	color:#000000;
-	font-size: 12px;
+	font: helvetica;
+	font-size: 15px;
 	}
 
 h1 {
 	color:#FF1493;
+	font: helvetica;
 	font-size: 40px;
 	margin-top: 30px;
-	background-color: #FFFFFF;
 	}
 
-.frame {
-	width: 200px;
-	border: 3px solid #000000;
-	margin: 30px;
-	background-color: #FFFFFF;
-	padding-left: 30px;
-	padding-bottom: 30px;
-	padding-top: 30px;
+h2 {
+	color:#000000;
+	font: helvetica;
+	font-size: 30px;
+
 }
 
-.blue-text {
-	color:#20B2AA;
-	font-size: 15px;
-	}
+.frame {
+	background-color: #DCDCDC;
+	padding: 50px;
+}
+
+
+.spacing { 
+    word-spacing: 30px;
+}
+
+footer {
+	background-color: #DCDCDC;
+}
