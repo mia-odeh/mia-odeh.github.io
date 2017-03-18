@@ -20,6 +20,7 @@ p {
 	color:#000000;
 	font: helvetica;
 	font-size: 15px;
+	margin: 30px 0px 0px 60px;
 	}
 
 h1 {
@@ -36,14 +37,19 @@ h2 {
 
 }
 
+.puff-style {
+	width: 320px;
+	margin: 80px;
+}
+
 .frame {
 	background-color: #DCDCDC;
 	padding: 50px;
 }
 
 
-.spacing { 
-    word-spacing: 30px;
+.word-spacing { 
+    word-spacing: 70px;
 }
 
 footer {
