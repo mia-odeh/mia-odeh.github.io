@@ -3,36 +3,36 @@ body {
 }
 
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 760px) {
 .responsive-image {
 	width: 50%;
-	font-size: 16px;
 	}
-}
-
-@media only screen and (min-width: 320PX) {
-	.responsive-h2 {
-		font-size: 20px;
+.responsive-h2 {
+	font-size: 30px;
+	}
+ .responsive-h1 {
+		font-size: 30px;
+		color: #C71585;
 	}
 }
 
 p {
 	color:#000000;
-	font: helvetica;
+	font: garamond;
 	font-size: 15px;
 	margin: 30px 0px 0px 60px;
 	}
 
 h1 {
 	color:#FF1493;
-	font: helvetica;
+	font: garamond;
 	font-size: 40px;
 	margin-top: 30px;
 	}
 
 h2 {
 	color:#000000;
-	font: helvetica;
+	font: garamond;
 	font-size: 30px;
 
 }
@@ -42,7 +42,7 @@ h2 {
 }
 
 .frame {
-	background-color: #DCDCDC;
+	background-color: #FFE4E1;
 	padding: 30px 0px 30px 0px;
 }
 
