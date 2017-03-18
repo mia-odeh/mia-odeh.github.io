@@ -1,5 +1,5 @@
 body {
-	background-color: #FFFFFF;
+	background-color: #DCDCDC;
 }
 
 
@@ -7,6 +7,10 @@ body {
 .responsive-image {
 	width: 50%;
 	}
+
+.responsive-head-image {
+	width: 80%;
+}
 
 .responsive-h2 {
 	font-size: 30px;
@@ -19,6 +23,7 @@ body {
 
 .responsive-p {
 	font-size: 20px;
+	margin: auto;
 	}
 }
 
@@ -27,8 +32,7 @@ p {
 	color:#000000;
 	font: garamond;
 	font-size: 15px;
-	width: 320px;
-	margin: 20px 0px 20px 60px;
+	margin: 20px 0px 20px 0px;
 	}
 
 h1 {
@@ -48,12 +52,16 @@ h2 {
 	margin: 20px;
 }
 
+
 .img-round {
 	border-radius: 50%;
 }
 	
 .puff-style {
-	margin: 70px 0px 30px 0px;
+	margin: 20px auto 20px auto;
+	padding: 20px;
+	width: 320px;
+	background-color: white;
 }
 
 .frame {
