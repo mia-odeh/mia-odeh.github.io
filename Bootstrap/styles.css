@@ -2,6 +2,25 @@ body {
 	background-color: #DCDCDC;
 }
 
+.show-menu {
+	transform: translateX(340px);
+}
+
+.nav.visible {
+	display: block;
+}
+
+.nav {
+	width: 340px;
+	height: 100%;
+	background: #cccccc;
+	color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	padding: 20px;
+}
 
 @media only screen and (min-width: 760px) {
 .responsive-image {
