@@ -6,12 +6,7 @@ body {
 
 @media only screen and (min-width: 760px) {
 .responsive-image {
-	width: 50%;
-}
-
-.responsive-head-image {
-	width: 40%;
-	height: 40%;
+	width: 60%;
 }
 
 .responsive-h2 {
@@ -33,9 +28,19 @@ body {
 	}
 }
 
+.head-image {
+	margin: 0 auto;
+	padding: 10px;
+	width: 50%;
+	height: 50%;
+	background-color: pink;
+	text-align: center;
+}
+
 .fa {
 	font-size: 40px;
 	color: pink;
+	margin-top:15px;
 }
 
 .container {
@@ -52,10 +57,14 @@ p {
 	color:#000000;
 	font-family: sans-serif;
 	font-size: 15px;
-	width: 60%;
+	width: 80%;
 	margin: auto;
 	text-align: center;
 	}
+
+i {
+	margin: 15px 15px 40px 15px;
+}
 
 h1 {
 	color:#FF1493;
@@ -75,7 +84,7 @@ h2 {
 .footer-style {
 	font-family: sans-serif;
 	width: 80%;
-	color: #FFFFFF;
+	color: white;
 	margin: 20px auto 20px auto;
 	text-align: center;
 }
@@ -92,14 +101,22 @@ h2 {
 	
 .puff-style {
 	margin: 0 auto;
-	padding: 20px;
+	padding: 30px;
 	width: 80%;
 	background-color: white;
 	text-align: center;
 }
 
+.puff-style-black {
+	margin: 0 auto;
+	padding: 20px;
+	width: 80%;
+	background-color: black;
+	text-align: center;
+}
+
 .frame {
-	background-color: #FF1493;
+	background-color: black;
 	padding: 30px 0px;
 	align-content: center;
 }
